@@ -339,22 +339,23 @@ describe('MerkleDistributor', () => {
         [wallet0.address]: {
           index: 0,
           amount: '0xc8',
-          proof: ['0x2a411ed78501edb696adca9e41e78d8256b61cfac45612fa0434d7cf87d916c6'],
+          proof: ['0x1a69a3464eb4dbc6a1ddff93fbf486d66a67a6367750a94c0087a861dec77a97'],
+                  '0xbadf4d9ae6d3bd2d2810ec136f3f25ad1b0a470538d81bb7903ed8a7ac897a1f,
         },
-        [wallet1.address]: {
+        [wallet1.address]: {0x841f6C34f8A2935C92a361C6aFA116D08E2bc922
           index: 1,
-          amount: '0x012c',
+          amount: '0x0000000000000000000000000000000000000000000078869c2b0993b67ee6487',
           proof: [
-            '0xbfeb956a3b705056020a3b64c540bff700c0f6c96c55c0a5fcab57124cb36f7b',
-            '0xd31de46890d4a77baeebddbd77bf73b5c626397b73ee8c69b51efe4c9a5a72fa',
+            '0xbadf4d9ae6d3bd2d2810ec136f3f25ad1b0a470538d81bb7903ed8a7ac897a1f',
+            '0x012722c5846d0b94501cb730b04bb0ef1fa567878dcaa2bdf5f48896077b369a',
           ],
         },
         [wallets[2].address]: {
           index: 2,
-          amount: '0xfa',
+          amount: '0x0000000000000000000000000000000000000000000004a0884a85076878d10c1',
           proof: [
-            '0xceaacce7533111e902cc548e961d77b23a4d8cd073c6b68ccf55c62bd47fc36b',
-            '0xd31de46890d4a77baeebddbd77bf73b5c626397b73ee8c69b51efe4c9a5a72fa',
+            '0x1a69a3464eb4dbc6a1ddff93fbf486d66a67a6367750a94c0087a861dec77a97',
+            '0xbadf4d9ae6d3bd2d2810ec136f3f25ad1b0a470538d81bb7903ed8a7ac897a1f',
           ],
         },
       })
