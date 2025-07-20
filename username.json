@@ -1,0 +1,19 @@
+const EIP712Domain = [
+  { name: 'name', type: 'string' },
+  { name: 'version', type: 'string' }
+]
+const domain = {
+  name: 'Sybil Verifier',
+  version: '1'
+}
+const Permit = [{ name: 'username', type: 'string' }]
+const message = { username: <include social username here> }
+const data = JSON.stringify({
+  types: {
+    EIP712Domain,
+    Permit
+  },
+  domain,
+  primaryType: 'Permit',
+  message
+})
